@@ -1,0 +1,11 @@
+ECE6254: Conda setup 
+
+1. module load anaconda3/2020.11
+2. conda create --name ece6254 python=3.8
+3. conda activate ece6254
+4. conda install -c anaconda jupyter
+5. conda install jupyterlab
+6. conda install -c anaconda scikit-learn
+7. pip install turicreate
+8. conda install -c conda-forge matplotlib
+
